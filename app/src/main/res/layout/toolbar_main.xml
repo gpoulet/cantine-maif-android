@@ -19,7 +19,7 @@
 
     <ImageView
         android:id="@+id/button_preferences"
-        android:src="@drawable/ic_settings"
+        android:src="@android:drawable/ic_popup_reminder"
         android:tint="@android:color/white"
         android:layout_width="@dimen/icon_size"
         android:layout_height="@dimen/icon_size"

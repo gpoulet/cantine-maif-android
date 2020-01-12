@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/preferencesFragment"
-        android:name="io.poulet.cantinemaif.ui.preferences.PreferencesFragment"
+        android:name="io.poulet.cantinemaif.ui.preferences.NotificationsFragment"
         android:label="fragment_preferences"
-        tools:layout="@layout/fragment_preferences" />
+        tools:layout="@layout/fragment_notifications" />
 </navigation>

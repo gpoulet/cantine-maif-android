@@ -7,13 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 
 import io.poulet.cantinemaif.R
-import kotlinx.android.synthetic.main.toolbar_preferences.*
+import kotlinx.android.synthetic.main.toolbar_notifications.*
 
 
-class PreferencesFragment : Fragment() {
+class NotificationsFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_preferences, container, false)
+        return inflater.inflate(R.layout.fragment_notifications, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
