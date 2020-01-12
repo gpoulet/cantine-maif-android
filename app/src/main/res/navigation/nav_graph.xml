@@ -12,16 +12,16 @@
         android:label="main_fragment"
         tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_mainFragment_to_preferencesFragment"
-            app:destination="@id/preferencesFragment"
+            android:id="@+id/action_mainFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"/>
     </fragment>
     <fragment
-        android:id="@+id/preferencesFragment"
-        android:name="io.poulet.cantinemaif.ui.preferences.NotificationsFragment"
+        android:id="@+id/notificationsFragment"
+        android:name="io.poulet.cantinemaif.ui.notifications.NotificationsFragment"
         android:label="fragment_preferences"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

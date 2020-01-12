@@ -44,7 +44,7 @@ class MainFragment : Fragment() {
         viewModel.loadMenus()
 
         button_preferences.setOnClickListener {
-            findNavController().navigate(MainFragmentDirections.actionMainFragmentToPreferencesFragment())
+            findNavController().navigate(MainFragmentDirections.actionMainFragmentToNotificationsFragment())
         }
     }
 

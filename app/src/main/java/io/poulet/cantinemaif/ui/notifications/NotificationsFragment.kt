@@ -1,4 +1,4 @@
-package io.poulet.cantinemaif.ui.preferences
+package io.poulet.cantinemaif.ui.notifications
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
