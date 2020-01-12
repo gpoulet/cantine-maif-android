@@ -11,6 +11,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import io.poulet.cantinemaif.R
 import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.toolbar_main.*
 
 class MainFragment : Fragment() {
 
@@ -42,7 +43,7 @@ class MainFragment : Fragment() {
 
         viewModel.loadMenus()
 
-        button.setOnClickListener {
+        button_preferences.setOnClickListener {
             findNavController().navigate(MainFragmentDirections.actionMainFragmentToPreferencesFragment())
         }
     }

@@ -3,4 +3,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cantine_maif">Cantine MAIF</string>
+    <string name="preferences">Préférences, bouton</string>
+    <string name="back">Retour, bouton</string>
 </resources>
