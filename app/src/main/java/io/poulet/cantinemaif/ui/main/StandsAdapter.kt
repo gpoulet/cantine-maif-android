@@ -9,6 +9,7 @@ import io.poulet.cantinemaif.R
 import kotlinx.android.synthetic.main.stand_item.view.*
 
 class StandsAdapter( val stands: List<Stand>) : RecyclerView.Adapter<StandViewHolder>() {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StandViewHolder {
         return StandViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.stand_item, parent, false))
     }
@@ -22,7 +23,6 @@ class StandsAdapter( val stands: List<Stand>) : RecyclerView.Adapter<StandViewHo
     }
 
 }
-
 
 class StandViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     var title: TextView = itemView.title
