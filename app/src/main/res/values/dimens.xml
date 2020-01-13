@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="title_size">20sp</dimen>
-    <dimen name="card_title_text_size">18sp</dimen>
-    <dimen name="card_content_text_size">18sp</dimen>
+    <dimen name="card_title_text_size">16sp</dimen>
+    <dimen name="card_content_text_size">16sp</dimen>
     <dimen name="icon_size">42dp</dimen>
     <dimen name="icon_back_size">20dp</dimen>
+    <dimen name="card_margin">14dp</dimen>
 </resources>

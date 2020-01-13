@@ -34,7 +34,7 @@ class MainFragment : Fragment() {
                 adapter = viewAdapter
             }
 
-            day.text = it.day
+            toolbar_title.text = "Menu du "+ it.day
         })
 
 
