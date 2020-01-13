@@ -15,6 +15,10 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -42,4 +46,10 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
     implementation group: 'com.squareup.retrofit2', name: 'retrofit', version: '2.7.1'
     implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0-rc03'
+    implementation 'org.jsoup:jsoup:1.7.2'
+
+
+  //  implementation 'com.squareup.okhttp3:logging-interceptor:3.12.1'
+
 }

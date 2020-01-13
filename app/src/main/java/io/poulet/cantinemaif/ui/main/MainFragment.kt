@@ -37,7 +37,6 @@ class MainFragment : Fragment() {
             day.text = it.day
         })
 
-        viewModel.loadMenus()
 
         button_preferences.setOnClickListener {
             findNavController().navigate(MainFragmentDirections.actionMainFragmentToNotificationsFragment())

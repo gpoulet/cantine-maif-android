@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import io.poulet.cantinemaif.R
+import io.poulet.cantinemaif.model.Stand
 import kotlinx.android.synthetic.main.stand_item.view.*
 
 class StandsAdapter( val stands: List<Stand>) : RecyclerView.Adapter<StandViewHolder>() {
