@@ -7,4 +7,5 @@
     <string name="preferences">Préférences, bouton</string>
     <string name="back">Retour, bouton</string>
     <string name="notifications">Notifications</string>
+    <string name="Heure">Heure</string>
 </resources>
