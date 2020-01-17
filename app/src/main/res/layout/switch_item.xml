@@ -14,7 +14,8 @@
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/card_margin"
+            android:layout_marginStart="@dimen/card_margin"
+            android:layout_marginEnd="@dimen/card_margin"
             android:orientation="horizontal"
             app:layout_constraintHorizontal_chainStyle="spread_inside">
 
