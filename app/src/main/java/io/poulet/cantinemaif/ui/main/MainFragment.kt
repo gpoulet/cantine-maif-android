@@ -27,11 +27,9 @@ class MainFragment : Fragment() {
 
 
         viewModel.menus.observe(this, Observer {
-            val viewManager = LinearLayoutManager(context)
-            val viewAdapter = StandsAdapter(it.stands)
             recyclerView.apply {
-                layoutManager = viewManager
-                adapter = viewAdapter
+                layoutManager = LinearLayoutManager(context)
+                adapter = StandsAdapter(it.stands)
             }
 
             toolbar_title.text = "Menu du "+ it.day
