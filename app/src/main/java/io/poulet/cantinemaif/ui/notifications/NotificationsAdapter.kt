@@ -11,7 +11,7 @@ import io.poulet.cantinemaif.R
 import io.poulet.cantinemaif.model.Notification
 import kotlinx.android.synthetic.main.switch_item.view.*
 
-class NotificationsAdapter(val notifications: List<Notification>, val listener: CompoundButton.OnCheckedChangeListener) : RecyclerView.Adapter<StandViewHolder>() {
+class NotificationsAdapter(val notifications: List<Notification>, private val listener: CompoundButton.OnCheckedChangeListener) : RecyclerView.Adapter<StandViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StandViewHolder {
         return StandViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.switch_item, parent, false))
@@ -29,7 +29,7 @@ class NotificationsAdapter(val notifications: List<Notification>, val listener: 
 }
 
 class StandViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    var label: TextView = itemView.switch_label
-    var switch: SwitchCompat = itemView.switch_input
+    val label: TextView = itemView.switch_label
+    val switch: SwitchCompat = itemView.switch_input
 
 }
